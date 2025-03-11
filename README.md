@@ -1,2 +1,2 @@
-# kerim-kilic.clarivate.io
-kerim-kilic.clarivate.io
+# kerim-kilic.github.io
+kerim-kilic.github.io
