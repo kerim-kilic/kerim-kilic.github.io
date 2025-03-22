@@ -31,9 +31,9 @@ body {
     align-items: center;
     position: relative;
     overflow: hidden;
+    transform: translateX(60px); /* Adjust this value as needed */
+    z-index: 1; /* Ensures it sits above the background */
   }
-  
-  
   
   .social-bar {
     background-color: #1a1a1a;
