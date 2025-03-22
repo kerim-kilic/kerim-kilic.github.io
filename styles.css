@@ -133,3 +133,62 @@ body {
     font-size: 1rem;
   }
   
+  /* NavBar */
+.navbar {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 2rem;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .red-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #e63946;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .nav-left .subtitle {
+    font-size: 0.85rem;
+    color: #ccc;
+    line-height: 1.3;
+  }
+  
+  .nav-right a {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: #ccc;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-right a:hover,
+  .nav-right a.active {
+    color: #e63946;
+  }
+  
+  /* Background split */
+  .container {
+    display: flex;
+    min-height: calc(100vh - 80px); /* subtract navbar height */
+    background: linear-gradient(to right, #1c1a40 0%, #1c1a40 50%, #2a2a2a 50%, #2a2a2a 100%);
+  }
+  
