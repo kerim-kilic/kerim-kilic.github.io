@@ -21,10 +21,10 @@ body {
   }
 
   .card {
-    width: 350px;           /* Was 280px; increase as needed */
+    width: 380px;           /* Was 280px; increase as needed */
     background-color: #1c1a40;
     text-align: center;
-    padding: 3rem 0 0;      /* Give it a bit more top padding */
+    padding: 3.5rem 0 0;      /* Give it a bit more top padding */
     border-radius: 12px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     display: flex;
@@ -39,11 +39,11 @@ body {
   
   .social-bar {
     background-color: #1a1a1a;
-    padding: 0.8rem 0;
+    padding: 1rem 0;
     border-radius: 0 0 12px 12px;
     display: flex;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 2rem;
     width: 100%; /* make it span the full width of the card */
     margin-top: 2rem;
   }
@@ -52,7 +52,7 @@ body {
   
   .social-bar a {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     transition: color 0.3s ease;
   }
   
@@ -67,8 +67,8 @@ body {
   
   
   .profile-img {
-    width: 180px;      /* Was 140px */
-    height: 180px;     /* match width for a perfect circle */
+    width: 200px;      /* Was 140px */
+    height: 200px;     /* match width for a perfect circle */
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
@@ -76,7 +76,7 @@ body {
   }  
   
   .card h2 {
-    font-size: 2rem;   /* Was 1.6rem */
+    font-size: 2.2rem;   /* Was 1.6rem */
     margin: 0.5rem 0;
     color: #fff;
   }
@@ -89,7 +89,7 @@ body {
   }
   
   .subtitle {
-    font-size: 1.1rem; /* Was 0.9rem */
+    font-size: 1.2rem; /* Was 0.9rem */
     color: #ccc;
     line-height: 1.4;
   }
