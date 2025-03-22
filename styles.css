@@ -115,10 +115,10 @@ body {
     background: none;
     display: block;
   }
-  
+
   .left,
   .right {
-    transform: translateY(-30px);
+    transform: translateY(-50px);
   }
   
   .right h1 {
