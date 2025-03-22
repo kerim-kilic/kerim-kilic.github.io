@@ -11,14 +11,13 @@ body {
   }
   
   .left {
-    flex: 0 0 40%;         /* Exactly 40% so it lines up with the gradient */
+    flex: 0 0 40%;
     display: flex;
-    justify-content: flex-end; /* or center, but often right-align helps overlap */
-    align-items: center;
-    overflow: visible;     /* ensure card can spill out */
+    justify-content: flex-end; 
+    overflow: visible;
     position: relative;
     padding: 3rem;
-    background: none;      /* let the container's gradient show through */
+    background: none;
   }
 
   .card {
@@ -111,12 +110,15 @@ body {
   }
   
   .right {
-    flex: 1; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 4rem 5rem;    /* push text to the right if needed */
-    background: none;      /* let the container's gradient show through */
+    flex: 1;
+    padding: 4rem 5rem;
+    background: none;
+    display: block;
+  }
+  
+  .left,
+  .right {
+    transform: translateY(-30px);
   }
   
   .right h1 {
@@ -232,11 +234,12 @@ body {
   .container {
     display: flex;
     min-height: 100vh;
+    align-items: center;  /* vertical centering */
     background: linear-gradient(
       to right,
       #2e2d5a 0%,
-      #2e2d5a 40%,  /* Purple ends at 40% */
-      #2f2e2e 40%,  /* Dark starts at 40% */
+      #2e2d5a 40%,
+      #2f2e2e 40%,
       #2f2e2e 100%
     );
   }
