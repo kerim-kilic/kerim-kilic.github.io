@@ -248,3 +248,32 @@ body {
     );
   }
   
+  .footer-bar {
+    background-color: #2f2e2e;        /* same color as .navbar */
+    padding: 2rem 3rem;              /* same thickness/spacing as .navbar */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Containers for left and right content */
+  .footer-left,
+  .footer-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* space between items */
+  }
+  
+  /* Links in the footer: match hover color, etc. */
+  .footer-bar a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-bar a:hover {
+    color: #e63946;
+  }
+  
