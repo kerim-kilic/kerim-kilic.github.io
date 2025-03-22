@@ -22,10 +22,10 @@ body {
   }
 
   .card {
-    width: 280px;
+    width: 350px;           /* Was 280px; increase as needed */
     background-color: #1c1a40;
     text-align: center;
-    padding: 2.5rem 0 0;
+    padding: 3rem 0 0;      /* Give it a bit more top padding */
     border-radius: 12px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     display: flex;
@@ -33,9 +33,10 @@ body {
     align-items: center;
     position: relative;
     overflow: hidden;
-    margin-right: -70px; /* Overlap boundary by 70px (adjust as needed) */
-    z-index: 1;          /* Keep card on top of the background split */
+    margin-right: -90px;    /* Overlap boundary by 70px; adjust if needed */
+    z-index: 1;
   }
+  
   
   .social-bar {
     background-color: #1a1a1a;
@@ -67,18 +68,18 @@ body {
   
   
   .profile-img {
-    width: 140px;
-    height: 140px;
+    width: 180px;      /* Was 140px */
+    height: 180px;     /* match width for a perfect circle */
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
     box-shadow: 0 4px 12px rgba(0,0,0,0.5);
-  }
+  }  
   
   .card h2 {
-    font-size: 1.6rem;
-    color: #fff;
+    font-size: 2rem;   /* Was 1.6rem */
     margin: 0.5rem 0;
+    color: #fff;
   }
   
   .divider {
@@ -89,7 +90,7 @@ body {
   }
   
   .subtitle {
-    font-size: 0.9rem;
+    font-size: 1.1rem; /* Was 0.9rem */
     color: #ccc;
     line-height: 1.4;
   }
