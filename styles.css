@@ -232,7 +232,7 @@ body {
   /* Background split */
   .container {
     display: flex;
-    min-height: 100vh;
+    min-height: min-height: calc(100vh - 114px);
     align-items: center;  /* vertical centering */
     background: linear-gradient(
       to right,
