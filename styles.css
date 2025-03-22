@@ -11,8 +11,9 @@ body {
   }
   
   .left {
-    background-color: #2e2d5a;
-    flex: 1;
+    flex: 0 0 35%;
+    position: relative;
+    overflow: visible;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,8 +32,8 @@ body {
     align-items: center;
     position: relative;
     overflow: hidden;
-    transform: translateX(250px); /* Adjust this value as needed */
-    z-index: 1; /* Ensures it sits above the background */
+    margin-right: -70px; /* Overlap into the right section */
+    z-index: 1;
   }
   
   .social-bar {
@@ -108,13 +109,13 @@ body {
   }
   
   .right {
-    flex: 2;
-    padding: 4rem;
-    background-color: #2f2e2e;
+    flex: 1;
+    padding: 4rem 5rem 4rem 5rem; /* top-right-bottom-left */
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
+    background-color: #2f2e2e; /* or remove if you rely solely on the gradient */
+  }  
   
   .right h1 {
     font-size: 3.5rem;
@@ -228,7 +229,13 @@ body {
   /* Background split */
   .container {
     display: flex;
-    min-height: calc(100vh - 80px); /* subtract navbar height */
-    background: linear-gradient(to right, #1c1a40 0%, #1c1a40 50%, #2a2a2a 50%, #2a2a2a 100%);
+    min-height: 100vh;
+    background: linear-gradient(
+      to right,
+      #1c1a40 0%,
+      #1c1a40 35%,
+      #2a2a2a 35%,
+      #2a2a2a 100%
+    );
   }
   
