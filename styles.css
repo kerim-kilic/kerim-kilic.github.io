@@ -141,15 +141,17 @@ body {
   }
   
   /* NavBar */
-.navbar {
+  .navbar {
     background-color: #1e1e1e;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.2rem 2rem;
+    padding: 2rem 3rem; /* ⬅️ Increased vertical + horizontal padding */
     color: white;
     font-family: 'Segoe UI', sans-serif;
+    height: 100px; /* ⬅️ Force a taller navbar */
   }
+  
   
   .nav-left {
     display: flex;
@@ -183,7 +185,7 @@ body {
     text-decoration: none;
     color: #ccc;
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 1rem;
     transition: color 0.3s;
   }
   
