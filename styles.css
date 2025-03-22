@@ -149,14 +149,14 @@ body {
     padding: 2rem 3rem; /* ⬅️ Increased vertical + horizontal padding */
     color: white;
     font-family: 'Segoe UI', sans-serif;
-    height: 100px; /* ⬅️ Force a taller navbar */
+    height: 80px; /* ⬅️ Force a taller navbar */
   }
   
   
   .nav-left {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
   }
   
   .logo {
