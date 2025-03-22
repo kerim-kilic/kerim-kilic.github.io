@@ -18,36 +18,31 @@ body {
     align-items: center;
     padding: 3rem;
   }
-  
-  .card-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }  
 
   .card {
     width: 280px;
-    background-color: #17162e;
+    background-color: #1c1a40;
     text-align: center;
-    padding: 2.5rem;
+    padding: 2.5rem 2rem 0; /* remove bottom padding */
     border-radius: 12px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.3);
-    transition: transform 0.3s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
   }
+  
   
   .social-bar {
     background-color: #1a1a1a;
-    margin-top: -12px; /* bring it closer to the card */
     padding: 0.8rem 0;
     border-radius: 0 0 12px 12px;
     display: flex;
     justify-content: center;
     gap: 1.5rem;
-    width: 280px; /* match card width */
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-  }  
+    margin-top: 2rem;
+  }
+  
   
   .social-bar a {
     color: white;
