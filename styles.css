@@ -20,16 +20,23 @@ body {
   }
   
   .card {
+    width: 280px;
     background-color: #1c1a40;
     text-align: center;
-    padding: 2rem;
+    padding: 2.5rem;
     border-radius: 12px;
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
   }
   
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  
   .profile-img {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
@@ -37,7 +44,7 @@ body {
   }
   
   .card h2 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #fff;
     margin: 0.5rem 0;
   }
