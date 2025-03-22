@@ -29,6 +29,28 @@ body {
     transition: transform 0.3s;
   }
   
+  .social-bar {
+    background-color: #1a1a1a; /* dark footer bar */
+    margin-top: 2rem;
+    padding: 0.8rem 0;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .social-bar a {
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-bar a:hover {
+    color: #e63946;
+  }
+  
+
   .card:hover {
     transform: scale(1.02);
   }
