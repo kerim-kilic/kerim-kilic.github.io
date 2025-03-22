@@ -184,7 +184,6 @@ body {
     padding: 2rem 3rem; /* ⬅️ Increased vertical + horizontal padding */
     color: white;
     font-family: 'Segoe UI', sans-serif;
-    height: 50px; /* ⬅️ Force a taller navbar */
   }
   
   
