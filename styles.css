@@ -23,7 +23,7 @@ body {
     width: 280px;
     background-color: #1c1a40;
     text-align: center;
-    padding: 2.5rem 2rem 0;
+    padding: 2.5rem 0 0;
     border-radius: 12px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     display: flex;
@@ -43,7 +43,7 @@ body {
     justify-content: center;
     gap: 1.5rem;
     width: 100%; /* make it span the full width of the card */
-    margin-top: auto;
+    margin-top: 2rem;
   }
   
   
