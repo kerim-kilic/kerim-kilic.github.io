@@ -118,7 +118,7 @@ body {
 
   .left,
   .right {
-    transform: translateY(-50px);
+    transform: translateY(0);
   }
   
   .right h1 {
