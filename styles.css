@@ -1,14 +1,19 @@
-body {
+html, body {
+    height: 100%;
     margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #1e1e1e;
-    color: #eee;
+    padding: 0;
+    box-sizing: border-box; /* Optional but recommended */
   }
-  
-  .container {
-    display: flex;
-    min-height: 100vh;
-  }
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1e1e1e;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
   
   .left {
     flex: 0 0 40%;
@@ -232,11 +237,12 @@ body {
   /* Background split */
   .container {
     display: flex;
-    align-items: center;  /* vertical centering */
+    flex: 1; /* This makes the container fill the remaining space */
+    align-items: center;  /* Vertical centering */
     background: linear-gradient(
       to right,
-      #2e2d5a 0%,
-      #2e2d5a 40%,
+      #2e2e5a 0%,
+      #2e2e5a 40%,
       #2f2e2e 40%,
       #2f2e2e 100%
     );
