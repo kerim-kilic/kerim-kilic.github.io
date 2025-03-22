@@ -163,8 +163,9 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    font-size: 1.2rem;
-  }
+    font-size: 1.4rem; /* was 1.2rem */
+    font-weight: 600;   /* makes it slightly bolder */
+  }  
   
   .red-dot {
     width: 10px;
